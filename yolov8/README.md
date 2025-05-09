@@ -15,7 +15,7 @@ pip install ultralytics==8.3.128
 
 ### Important Note : For yolov8 QAT & Pruning were skipped since the goal was to computer power and inference time of the model so if you need these steps, you can extend the calibration step to support it
 
-#### YOLOv8n model installation : [YOLOv8](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n.pt)
+#### YOLOv8n model installation : [YOLOv8n](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n.pt)
 
 #### Convert the .pt model into .xmodel
 ```bash
