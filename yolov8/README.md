@@ -20,7 +20,7 @@ pip install ultralytics==8.3.128
 #### Convert the .pt model into .xmodel
 ```bash
 cd yolov8/
-python ./yolov8_export_to_xmodel.py --nndct_convert_sigmoid_to_hsigmoid --nndct_convert_silu_to_hswish
+python ./yolov8_export_to_xmodel.py --nndct_convert_silu_to_hswish
 ```
 
 #### Run the compilation with vai_c_xir
